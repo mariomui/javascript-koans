@@ -96,29 +96,49 @@ describe("About Applying What We Have Learnt", function() {
 
     expect(ingredientCount['mushrooms']).toBe(2);
   });
+});
 
+//The below was given its own page for test suiting.
   /*********************************************************************************/
   /* UNCOMMENT FOR EXTRA CREDIT */
-  /*
-  it("should find the largest prime factor of a composite number", function () {
-  
-  });
+// describe("Thinking Extra Credit", function() {
+//   var should = chai.should;
 
-  it("should find the largest palindrome made from the product of two 3 digit numbers", function () {
+//   it("should find the largest prime factor of a composite number", function () {
+//     function isPrime(num) {
+//       for (let i = 2; i < num; ++i) {
+//         if (num%i === 0) {
+//           return false;
+//         }
+//       }
+//       return true;
+//     }
     
-  });
+//     let compositeNum = 324;
+//     for (let i = compositeNum; i >= 2; ++i) {
+//       if (isPrime(i)) {
+//         return (i);
+//       }
+//     }
+    
+//     findPrime.should.equal(317);
+//   });
 
-  it("should find the smallest number divisible by each of the numbers 1 to 20", function () {
+//   it("should find the largest palindrome made from the product of two 3 digit numbers", function () {
+    
+//   });
+
+//   it("should find the smallest number divisible by each of the numbers 1 to 20", function () {
       
     
-  });
+//   });
 
-  it("should find the difference between the sum of the squares and the square of the sums", function () {
+//   it("should find the difference between the sum of the squares and the square of the sums", function () {
     
-  });
+//   });
 
-  it("should find the 10001st prime", function () {
+//   it("should find the 10001st prime", function () {
 
-  });
-  */
-});
+//   });
+  
+// });
